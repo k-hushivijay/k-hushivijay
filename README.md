@@ -2,7 +2,10 @@
 
 <
 **k-hushivijay/k-hushivijay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+<h2>
 Here are some ideas to get you started:
+</h2>
 
 
 - 🔭 I’m currently pursuing Btech in Computer Science .
