@@ -4,24 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star } from "lucide-react";
 
 const Testimonials = () => {
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      role: "IT Director",
-      company: "TechNova Solutions",
-      image: "/placeholder.svg",
-      content: "SoftSell helped us recover nearly $50,000 from unused enterprise licenses that would have otherwise gone to waste. Their valuation was fair and the payment was processed quickly. Highly recommended!",
-      rating: 5
-    },
-    {
-      name: "Michael Chen",
-      role: "Finance Manager",
-      company: "Quantum Industries",
-      image: "/placeholder.svg",
-      content: "As we transitioned to cloud services, we had several on-premise licenses that were no longer needed. SoftSell made the process of selling them incredibly simple and transparent. The ROI on this decision was significant.",
-      rating: 5
-    }
-  ];
+  const testimonials: any[] = [];
 
   return (
     <section id="testimonials" className="section-container bg-muted/30">      
