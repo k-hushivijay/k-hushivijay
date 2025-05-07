@@ -24,13 +24,8 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="section-container bg-muted/30">
-      <h2 className="section-title">What Our Clients Say</h2>
-      <p className="section-subtitle">
-        Join hundreds of satisfied companies who have successfully recovered value from their software investments.
-      </p>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+    <section id="testimonials" className="section-container bg-muted/30">      
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {testimonials.map((testimonial, index) => (
           <Card key={index} className="border shadow-sm hover:shadow-md transition-shadow">
             <CardHeader className="pb-0">
